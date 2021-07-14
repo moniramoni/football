@@ -71,4 +71,27 @@ body{
     width: 556.01px;
     height: 438px;
     align-items: center;
+
+ /* -----------------------------
+    football banner hover
+ -------------------------------- */
+}
+@keyframes sliding{ 
+    
+    0%{
+        left: 0;
+        top: 0;
+        transform: scale(0.5);
+    }
+
+    50%{
+        top: 0;
+    }
+    
+    100%{
+        top: 0;
+    }
+}
+.banner-image img:hover{
+    animation: sliding 2s ease-in-out 0.5s infinite alternate;
 }
