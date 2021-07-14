@@ -70,11 +70,12 @@ body{
     width: 556.01px;
     height: 438px;
     align-items: center;
+}
 
  /* -----------------------------
     football banner hover
  -------------------------------- */
-}
+
 @keyframes sliding{ 
 
     0%{
@@ -301,4 +302,201 @@ footer{
 }
 div p{
     font-size: 18px;
+}
+
+/* -------------------------------
+    media queries mobile devices
+---------------------------------- */
+
+@media only screen and (max-width:688px) {
+
+    .main{
+        width: 100%;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    /* copa football banner styles */
+    .container{
+        width: 100%;
+        padding: 30px 0px 30px 0px;
+    }
+    .football-banner{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner-detail{
+        display: block;
+    }
+    
+    .banner-title h1{
+        width: 85%;
+        padding: 20px;
+        font-size: 32px;
+        line-height: 40px;
+        font-weight: 500;
+      
+    }
+    .banner-button{
+        width: 110px;
+        margin-left: 20px;
+        margin-top: -20px;
+        height: 30px;
+    }
+    .banner-button a{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .banner-image img{
+        margin-top: 45px;
+        height: 250px;
+        width: 70%;
+        padding: 20px;
+    }
+    
+    /* Football Players styles */
+
+    .football-players{
+        width: 85%;
+        padding-top: 35px;
+    }
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .player-title h2{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .player-details p{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    /* featured video styles */
+
+    .video-info{
+        padding:0px 20px 0px 20px;
+        margin-top: 50px;
+        margin-right: 50px;
+    }
+    .video-title h1{
+        width: 95%;
+        font-size: 32px;
+        line-height: 40px;
+        font-weight: 500; 
+    }
+    .video-summary p{
+        width: 95%; 
+        font-size: 12px;
+    }
+    .video iframe{
+        width: 100%;
+        height: 300px;
+        margin-top: 20px;
+    }
+
+    /* Final match schedule styles */
+
+    .schedule-title h1{
+        width: 85%;
+        margin-top: 70px;
+        margin-right: 0;
+        padding:0px -50px 0px 0px;
+        font-size: 32px;
+        line-height: 40px;
+        font-weight: 500;
+    
+    }
+    .schedule-summary p{
+        width: 85%; 
+        font-size: 12px;
+    }
+    .schedule img{
+        width: 85%;
+        height: 300px;
+        margin-top: 30px;
+    }
+    /* Copa Football Highlights styles */
+
+    .container-highlights{
+        width: 100%;
+        padding: 20px 50px 87px 20px;
+    }
+    .football-highlights{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        padding-right: 20px;
+    }
+    .highlights-detail{
+        display: block;
+        flex-direction: column;
+        justify-content:center;
+    }
+
+    .highlights-title h1{
+        width: 85%;
+        font-size: 32px;
+        line-height: 40px;
+        font-weight: 500;   
+    }
+    .highlights-title p{
+        width: 85%;
+        font-size: 12px;
+        line-height: 20px;
+        font-weight: 400;   
+    }
+
+    .highlights-button{
+        width: 120px;
+        height: 30px;
+        margin: -20px 0px 50px 0px;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .highlights-button a{
+        font-size: 12px;
+        line-height: 20px;
+        font-weight: 400;
+    }
+    .highlights-image img{
+        width: 80%;
+        height: 350px;
+    }
+
+    /* footer styles */
+
+    footer{
+        width: 100%;
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3vh;  
+        margin-bottom: 30vh;
+    }
+    .footer{
+        width: 90%;
+        height: 40px;  
+    }
+    .footer img{
+        width:80%;
+        height: 90px;
+    }
+    .fab.icon{
+        font-size: 18px;
+        width: 18px;
+        height: 18px;;
+        padding: 2%;
+        margin: 3px;
+    }
+    div p{
+        font-size: 12px;
+    }
+    
 }
