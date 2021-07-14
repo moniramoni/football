@@ -1,0 +1,74 @@
+/* ----------------------------
+    google f
+------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* ----------------------------
+    common style
+-------------------------------*/
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* -----------------------------
+    copa football banner
+-------------------------------- */
+.container{
+    background-color: #2D25A0;
+    width: 100%;
+    padding: 67px 0px 87px 0px;
+}
+.football-banner{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.banner-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.banner-title h1{
+    width: 485px;
+    font-size: 64px;
+    line-height: 80px;
+    font-weight: 700;
+    font-style: normal;
+    color: #FFFFFF;
+  
+}
+.banner-button{
+    Padding: 10px, 24px, 10px, 24px;
+    background: #E02C6D;
+    color: #FFFFFF;
+    width: 168px;
+    height: 44px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+}
+.banner-button a{
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 8px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.banner-image img{
+    width: 556.01px;
+    height: 438px;
+    align-items: center;
+}
